@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.app{
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 10px #979797;
+    width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background: #fff;
+    position: relative;
+    height: 500px;
+}
+#cityName{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #1b899c;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+p{
+    font-weight: 500;
+}
+#icon{
+    display: none;
+}
+#loading{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    display: none;
+}
